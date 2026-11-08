@@ -1,0 +1,14 @@
+{
+  "name": "phone-br-core",
+  "version": "0.1.0",
+  "description": "Brazilian phone validation and formatting: DDD allowlist, mobile/landline shapes, E.164. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/phone.test.js",
+    "demo": "node bin/phone-br.mjs --assert"
+  }
+}
